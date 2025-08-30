@@ -51,7 +51,9 @@ app = FastAPI(
 # إعداد CORS للسماح لتطبيق الواجهة الأمامية بالاتصال
 origins = [
     "http://localhost:3000",  # لـ React Web (أثناء التطوير)
-    "http://localhost:8081",  # لـ React Native Metro Bundler
+    "http://localhost:8081",
+    https://recheck-eg.netlify.app,
+# لـ React Native Metro Bundler
     # يمكنك إضافة عناوين أخرى هنا في المستقبل
 ]
 app.add_middleware(
