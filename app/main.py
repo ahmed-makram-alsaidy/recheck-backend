@@ -52,7 +52,7 @@ app = FastAPI(
 origins = [
     "http://localhost:3000",  # لـ React Web (أثناء التطوير)
     "http://localhost:8081",
-    https://recheck-eg.netlify.app,
+    "https://recheck-eg.netlify.app",
 # لـ React Native Metro Bundler
     # يمكنك إضافة عناوين أخرى هنا في المستقبل
 ]
